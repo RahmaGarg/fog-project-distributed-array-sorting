@@ -43,7 +43,6 @@ def sort_endpoint():
         # Local sorting (single machine)
         total_start = time.time()
         sorted_data = sorted(data)
-        time.sleep(3)
         total_duration = (time.time() - total_start)
 
         # Return sorted data and total execution time
